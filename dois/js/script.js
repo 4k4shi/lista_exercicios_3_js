@@ -19,5 +19,5 @@ do{
 		
 	}
 }
-while(nota != "fim" && cfm != true);
+while(nota != "fim");
 console.log("obg ...");
