@@ -1,4 +1,4 @@
-console.log("#Trazer o maior número de notas");
+console.log("#Trazer o maior número dentre os números enviados pelo usuário");
 
 let n1,n2,n3,n4,n5,maior;
 
