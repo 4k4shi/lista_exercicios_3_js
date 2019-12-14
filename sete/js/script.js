@@ -11,6 +11,3 @@ for(let i=0;i<cont.length;i++){
 }
 
 alert("QUANTIDADE\nNome com espaço: "+nome.length+" caracters\nNomes sem espaço(os): "+nomeSemEspaco.length+" caracteres");
-
-console.log(nome)
-console.log(nomeSemEspaco)
