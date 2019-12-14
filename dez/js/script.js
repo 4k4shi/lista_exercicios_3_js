@@ -1,7 +1,8 @@
 console.log("#Saudação");
-
-const dataAtual = new Date();
-const horaAtual = dataAtual.getHours();
+const horaAtual = (function(){
+	const dataAtual = new Date();
+	return dataAtual.getHours();
+})();
 
 if(horaAtual >= 0 && horaAtual < 6){
 	alert("Boa madrugada ( ͡° ͜ʖ ͡°)  \nSão exatemente " + horaAtual + " horas");
