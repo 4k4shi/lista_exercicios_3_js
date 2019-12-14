@@ -2,7 +2,7 @@ console.log("#Solicitação do nome");
 
 let nome,nomeSemEspaco,cont;
 
-nome = prompt("Digite seu nome completo >-<");
+nome = prompt("Digite seu nome completo");
 
 nomeSemEspaco = nome.replace(" ","");
 
