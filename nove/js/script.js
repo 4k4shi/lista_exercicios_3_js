@@ -1,15 +1,15 @@
 console.log("#Nome e caractere especifico");
 
-let nome,carac;
+let nome,caractere;
 
 
 nome = prompt("Digite seu nome completo");
-carac = prompt("Digite um número");
+caractere = prompt("Digite um número");
 
-if(carac <= 0){
-	alert("ERRO: Esse caractere não pode ser encontrado");
+if(caractere <= 0){
+	alert("ERRO: Esse caracteretere não pode ser encontrado");
 }else{
-	alert(carac+"º: "+nome.charAt(carac-1));
+	alert(caractere+"º: "+nome.charAt(caractere-1));
 }
 
 
