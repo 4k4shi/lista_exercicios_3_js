@@ -1,16 +1,15 @@
-console.log("#");
+console.log("#Nomes em ordem reversa");
 
-let nomes=" ",nome=" ",copia,parar=false;
+let lista_Nomes="",ultimoNome="",continuar=true;
 
-while (parar != true) {
-	nome = prompt("Digite um nome");
-	if(nome == "fim"){
-		parar = true;
+while (continuar) {
+	ultimoNome = prompt("Digite um nome");
+	if(ultimoNome.toUpperCase() == "FIM"){
+		continuar = false;
 	}else{
-		copia = nomes+" ";
-		nomes = nome+" "+nomes;
+		lista_Nomes = ultimoNome+"\n"+lista_Nomes;
 	}
 }
-alert(nomes);
+alert(lista_Nomes);
 
 	
